@@ -1,5 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="multimedia_displaybmp" id="249" x="-362" y="-451">
-    <field name="BMP">butterfly</field>
+  <block type="controls_if" id="332" inline="false" x="-390" y="-403">
+    <value name="IF0">
+      <block type="sensor_object" id="343">
+        <field name="OBJECT">LEFTFRONT</field>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="movement_forward" id="378"></block>
+    </statement>
   </block>
 </xml>
