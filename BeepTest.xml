@@ -1,5 +1,15 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="multimedia_playwav" id="1" x="79" y="88">
-    <field name="WAV">beep.w</field>
+  <block type="controls_whileUntil" id="114" inline="false" x="199" y="58">
+    <field name="MODE">UNTIL</field>
+    <value name="NUMBER">
+      <block type="sensor_button" id="159">
+        <field name="OBJECT">ENTER</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="multimedia_playwav" id="1">
+        <field name="WAV">beep.w</field>
+      </block>
+    </statement>
   </block>
 </xml>
