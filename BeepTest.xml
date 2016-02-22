@@ -1,5 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="multimedia_playwav" id="1" x="79" y="88">
     <field name="WAV">beep.w</field>
+    <next>
+      <block type="robot_delay" id="34" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="42">
+            <field name="NUM">9999</field>
+          </block>
+        </value>
+      </block>
+    </next>
   </block>
 </xml>
