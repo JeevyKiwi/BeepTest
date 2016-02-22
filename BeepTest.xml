@@ -6,7 +6,7 @@
       </block>
     </value>
     <statement name="DO0">
-      <block type="movement_forward" id="378"></block>
+      <block type="movement_right" id="388"></block>
     </statement>
   </block>
 </xml>
